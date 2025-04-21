@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JSP/include.md",
+                "file": "JSP/MVC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "include"
+              "title": "MVC"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "beb8f0be6d791928",
@@ -170,9 +171,15 @@
   },
   "active": "e95cc0ee7ff04caa",
   "lastOpenFiles": [
-    "시험공부.md",
-    "JSP/JSP.md",
+    "{3438974B-7CD0-49A7-8FA9-29BC7857A838}.png",
+    "JSP/useBean, setBean.md",
+    "JSP/MVC.md",
     "JSP/request.md",
+    "JSP/JSP.md",
+    "JSP/forward 액션 태그.md",
+    "JSP/include, forward, param 액션 태그.md",
+    "JSP/include 태그.md",
+    "시험공부.md",
     "JavaScript/이벤트 리스너 추가하는 방법.md",
     "JavaScript/이벤트 리스너 사용법.md",
     "HTML/input.md",
@@ -189,13 +196,7 @@
     "Java/jsp 페이지 이동하는법.md",
     "Java/Scanner.md",
     "Java/Java 기초.md",
-    "JSP/include.md",
     "JSP/form.md",
-    "Git.md",
-    "TODO List.md",
-    "Python/변수 선언.md",
-    "Python/Class.md",
-    "Python/제어문.md",
     "어쩔티비.png",
     "답안",
     "JavaScript",
