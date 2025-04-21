@@ -1,6 +1,14 @@
-form 태그는 다음과 같은 기능이 있다.
+```html
+<form method="" action="xxx.jsp">
+	<input/>
+</form>
+```
 
-`action` 속성: 가고 싶은 주소
-`method` 속성: 사용하고 싶은 방식 `GET`, `POST`
+### 속성
+* method: get, post
+* action: 이동할 페이지
 
-특이사항으로는, form 태그 안에 `button` 태그를 사용하게 되면 이 `button`태그는 전송 기능이 자동으로 생긴다. 만약 form 태그 안에 여러 버튼을 두게 될 경우 `<button type="button"></button>`을 사용해 일반 버튼으로 만들어야 전송 기능을 하지 않는다.
+### 사용법
+form 태그 사이에 input 태그를 사용하면 된다. input 태그의 name 속성에 적은 이름으로 값이 다른 페이지에 전달된다.
+
+페이지를 이동시키는  버튼을 만들고 싶으면 form 태그 내에 button 태그를 추가하면 된다.
